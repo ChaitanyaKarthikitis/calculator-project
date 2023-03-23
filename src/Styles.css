@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.App{
+    min-height: 100vh;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto','sans-serif';
+}
+
+.calculator{
+    /* height: 400px; */
+    background-color: black;
+    color: white;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+}
+
+.display-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    height: 125px;
+    padding: 15px;
+    background-color: bisque;
+    /* padding-left: 25px; */
+    color: black;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row button{
+    cursor: pointer;
+}
+
+.btn{
+    width: 4rem;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 0.6rem;
+    border: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    border-radius: 0.85rem;
+    /* border: dotted  ; */
+    /* border: none; */
+    /* outline: none; */
+    /* font-size: 2.5rem; */
+}
+.input-buttons{
+    padding: 25px;
+}
+
+.clearbutton{
+    
+    /* width: 100%; */
+    /* padding: 25px; */
+    width: 325px;
+    font-size: 30px;
+    /* padding: 1rem; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 0.85rem;
+    color: #f4f4f4;
+    /* font-weight: 200; */
+    cursor: pointer;
+
+}
+
+.clearbutton:hover{
+    border-radius: 1rem;
+}
+
+.lastBtn{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
